@@ -2,7 +2,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "run.py",
+      "src": "api_modelo.py",
       "use": "@vercel/python"
     }
   ],
