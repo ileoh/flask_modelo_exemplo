@@ -161,5 +161,9 @@ def list_predictions():
     return jsonify(results)
 
 
+@app.route("/")
+def route_hello():
+    return jsonify({"message": "Hello, world!"})
+
 if __name__ == "__main__":
     app.run(debug=True)
